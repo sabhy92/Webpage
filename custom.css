@@ -1,0 +1,103 @@
+body{
+   color:#333;
+    font-family:Lora,'Times New Roman',serif;
+    font-size:18px;
+    -webkit-tap-highlight-color:#0085A1
+}
+
+.picture{
+  background-image: url(http://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-bg.jpg);
+  background-size: cover;
+  height: 400px;
+  margin-left: 25px;
+    margin-right: 25px;
+}
+
+.top {
+    margin-top: 20px;
+    color:white;
+}
+.navbar{
+  float:right;
+  color:white;
+}
+
+.marg{
+    margin-right:20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+a {
+  color: black;
+}
+a:hover,
+a:focus {
+  color: #0085A1;
+}
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}
+.post-preview > a {
+  color: white;
+}
+.post-preview > a:hover,
+.post-preview > a:focus {
+  text-decoration: none;
+  color: #0085A1;
+}
+.post-preview > a > .post-title {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.post-preview > a > .post-subtitle {
+  margin: 0;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.post-preview > .post-meta {
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+}
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: white;
+}
+.post-preview > .post-meta > a:hover,
+.post-preview > .post-meta > a:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+.content{
+    margin-top: 60px;
+}
+.caption{
+    font-size: 12px;
+    text-align:justify;
+}
+.section-heading{
+  font-weight: bold;
+}
+.footer a{
+  color:black;
+}
+.container{
+  margin:auto;
+}
+p{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
